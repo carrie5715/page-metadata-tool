@@ -67,7 +67,6 @@ web_modules/
 
 # dotenv environment variable files
 .env
-.env.*
 !.env.example
 
 # parcel-bundler cache (https://parceljs.org/)
@@ -137,3 +136,21 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+
+
+# Nuxt dev/build outputs
+ui/.output
+ui/.data
+ui/.nuxt
+ui/.nitro
+ui/.cache
+ui/dist
+
+# Node dependencies
+ui/node_modules
+
+# Misc
+.DS_Store
+.fleet
+.idea
